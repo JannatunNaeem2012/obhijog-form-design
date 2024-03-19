@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>অভিযোগ গ্রহন ফরম</title>
+</head>
+<body class="container mx-auto border-2 border-black p-4 mt-6">
+    <header id="title">
+        <h1 class="text-2xl mb-4 lg:text-4xl text-center font-semibold">অভিযোগ গ্রহণ ফরম</h1>
+    </header>
+    <main>
+        <section class="m-2 lg:m-8 text-[16px] lg:text-[20px] grid grid-cols-1 gap-4 align-middle">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <h1 class="mx-3">অভিযোগকারীর নাম</h1>
+                <input type="text" placeholder="" class="input input-bordered w-full max-w-xs" />
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <h1 class="mx-3">অভিযোগকারীর মোবাইল</h1>
+                <input type="text" placeholder="" class="input input-bordered w-full max-w-xs" />
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <h1 class="mx-3">অভিযোগকারীর বর্তমান ঠিকানা</h1>
+                <div class="grid grid-cols-4 gap-2 ">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn m-1">বিভাগ</div>
+                        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Item 1</a></li>
+                          <li><a>Item 2</a></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn m-1">জেলা</div>
+                        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Item 1</a></li>
+                          <li><a>Item 2</a></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn m-1">উপজেলা</div>
+                        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Item 1</a></li>
+                          <li><a>Item 2</a></li>
+                        </ul>
+                      </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn m-1">ইউনিয়ন</div>
+                        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Item 1</a></li>
+                          <li><a>Item 2</a></li>
+                        </ul>
+                      </div>
+                </div>
+                
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <h1 class="mx-3">অভিযোগকারীর স্থায়ী ঠিকানা</h1>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn m-1">বেছে নিন</div>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Item 1</a></li>
+                      <li><a>Item 2</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <h1 class="mx-3">কর্মসূচীর নাম</h1>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn m-1">বেছে নিন</div>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Item 1</a></li>
+                      <li><a>Item 2</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <h1 class="mx-3">অভিযোগের ধরন</h1>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn m-1">বেছে নিন </div>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Item 1</a></li>
+                      <li><a>Item 2</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <h1 class="mx-3">অভিযোগের বিবরণ</h1>
+                <textarea placeholder="" class="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <h1 class="mx-3">অভিযোগ সংশ্লিষ্ট উপকারভোগীর নাম</h1>
+                <input type="text" placeholder="" class="input input-bordered w-full max-w-xs" />
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <h1 class="mx-3">অভিযোগ সংশ্লিষ্ট উপকারভোগীর NID নম্বর</h1>
+                <input type="text" placeholder="" class="input input-bordered w-full max-w-xs" />
+            </div>
+        </section>
+        <section>
+            <button class="btn text-[16px] lg:text-xl mx-auto flex justify-center">দাখিল</button>
+        </section>
+    </main>
+</body>
+</html>
